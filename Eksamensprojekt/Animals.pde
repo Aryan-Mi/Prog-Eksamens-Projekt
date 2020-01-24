@@ -1,37 +1,28 @@
 class Animals {
 
 
-  class Mammals extends Animals {
+  class Mammals extends Animals { //Pattedyr
     
     
   }
 
-  class Birds extends Animals {
+  class Birds extends Animals { //Fugle
     
     
   }
 
-  class Reptiles extends Animals {
+  class Reptiles extends Animals { //Krybdyr
     
     
   }
 
-  class Amphibians extends Animals {
+  class Amphibians extends Animals { //Padder
     
     
   }
 
-  class Fish extends Animals {
-    
-    
-  }
 
-  class Mollusca extends Animals {
-    
-    
-  }
-
-  class Arthropods extends Animals {
+  class Arthropods extends Animals { //Leddyr
     
     
   }
