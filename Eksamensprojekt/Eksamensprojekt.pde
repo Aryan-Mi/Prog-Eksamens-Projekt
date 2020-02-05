@@ -1,19 +1,21 @@
 // Need G4P library
 import g4p_controls.*;
 
+PImage Zoo;
 
 public void setup(){
-  //size(900, 800, JAVA2D);
+  size(1000, 700, JAVA2D);
   createGUI();
   customGUI();
+  Zoo = loadImage("Zoo map.jpg");
   // Place your setup code here
   
 }
 
 
 public void draw(){
-  background(230);
-  
+  background(30);
+  image(Zoo, 0, 0, width, height);
 }
 
 
