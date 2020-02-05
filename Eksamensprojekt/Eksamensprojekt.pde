@@ -4,7 +4,6 @@ import g4p_controls.*;
 
 public void setup(){
   //size(900, 800, JAVA2D);
-  fullScreen(JAVA2D);
   createGUI();
   customGUI();
   // Place your setup code here
