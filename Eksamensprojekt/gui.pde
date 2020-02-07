@@ -67,9 +67,8 @@ public void createGUI(){
   PolarBear = new GButton(this, 588, 335, 43, 50);
   PolarBear.setText("PolarBears");
   PolarBear.addEventHandler(this, "button1_click5");
-  Flamingo = new GButton(this, 718, 445, 68, 50);
+  Flamingo = new GButton(this, 718, 445, 50, 50);
   Flamingo.setIcon("Flamingo 1.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
-  Flamingo.setText("Flamingos");
   Flamingo.addEventHandler(this, "button1_click6");
   Kamel = new GButton(this, 414, 635, 57, 50);
   Kamel.setText("Kameler");

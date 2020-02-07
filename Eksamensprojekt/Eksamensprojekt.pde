@@ -5,6 +5,7 @@ PImage Zoo;
 
 public void setup(){
   size(1000, 700, JAVA2D);
+  //fullScreen(JAVA2D);
   createGUI();
   customGUI();
   Zoo = loadImage("Zoo map.jpg");
