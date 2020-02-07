@@ -64,13 +64,13 @@ public void createGUI(){
   Lion = new GButton(this, 444, 452, 50, 50);
   Lion.setText("Lions");
   Lion.addEventHandler(this, "button1_click4");
-  PolarBear = new GButton(this, 588, 335, 43, 50);
+  PolarBear = new GButton(this, 589, 334, 50, 50);
   PolarBear.setText("PolarBears");
   PolarBear.addEventHandler(this, "button1_click5");
-  Flamingo = new GButton(this, 718, 445, 68, 50);
+  Flamingo = new GButton(this, 718, 445, 50, 50);
   Flamingo.setText("Flamingos");
   Flamingo.addEventHandler(this, "button1_click6");
-  Kamel = new GButton(this, 414, 635, 57, 50);
+  Kamel = new GButton(this, 414, 635, 50, 50);
   Kamel.setText("Kameler");
   Kamel.addEventHandler(this, "button1_click7");
 }
